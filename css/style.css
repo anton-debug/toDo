@@ -146,7 +146,7 @@
 	min-width: 200px;
 }
 
-@media (max-width: 361px) {
+@media (max-width: 380px) {
 	.label-heding {
 		font-size: 35px;
 	}
@@ -172,7 +172,7 @@
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
 	.button {
 		min-width: 320px;
 		height: 100px;
