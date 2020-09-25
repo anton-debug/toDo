@@ -42,6 +42,7 @@ p {
 
 ul {
     margin: 0;
+    padding: 0;
 }
 
 li {
@@ -68,6 +69,15 @@ li {
 }
 
 .container { 
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 } 
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0 0 40px;
+    }
+}
